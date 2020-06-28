@@ -1,0 +1,17 @@
+footer {
+  height: 15vh;
+  margin: 0;
+  padding: 1rem;
+  background: #5266d6;
+  color: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    color: white;
+    text-decoration: white;
+  }
+}

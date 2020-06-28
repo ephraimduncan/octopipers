@@ -14,39 +14,46 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
     <title>Octopipers</title>
   </head>
   <body>
     <main>
       <nav>
-        <div class="nav-logo">
-          <div class="logo">
-            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+        <div class="container">
+          <div class="nav-logo">
+            <div class="logo">
+              <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </div>
+            <h2>Octopipers</h2>
           </div>
-          <h2>Octopipers</h2>
-        </div>
-        <div class="btns">
-          <button>Trending</button>
-          <button>Search</button>
+          <div class="btns">
+            <button>Trending</button>
+            <button>Search</button>
+          </div>
         </div>
       </nav>
       <section>
-        <div class="intro">
-          <img src="./img/octocat-26.png" alt="Octocat" />
-          <button class="search">Search</button>
-        </div>
-        <div class="top-trending">
-          <div class="trend-bar"></div>
+        <div class="container">
+          <div class="intro">
+            <img src="./img/welcome-cat.png" alt="Octocat" />
+          </div>
+          <div class="top-trending">
+            <div class="trend-bar">
+              <h2>Trending</h2>
+              <ul class="trends"></ul>
+            </div>
+          </div>
         </div>
       </section>
       <footer>
-        <div class="copyright">
-          <p>&copy; 2020 Ephraim Atta-Duncan</p>
-        </div>
-        <div class="links">
-          <a href="#">Open Source on Github</a>
-          <a href="#">Images By myOctocats</a>
+        <div class="container">
+          <div class="copyright">
+            <p>&copy; 2020 Ephraim Atta-Duncan</p>
+          </div>
+          <a href="#">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+          </a>
         </div>
       </footer>
     </main>

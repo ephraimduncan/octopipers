@@ -1,0 +1,24 @@
+nav {
+  background-color: #24292e;
+  padding: 0.5rem;
+  color: white;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      * {
+        margin: 0.2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}

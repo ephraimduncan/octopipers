@@ -1,4 +1,17 @@
-main {
-  width: 80%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8fa;
+  font-family: Raleway, sans-serif;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 70%;
   margin: auto;
 }
